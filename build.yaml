@@ -19,9 +19,11 @@ include:
     shield: corne_right
   - board: nrfmicro_13
     shield: settings_reset    
-  - board: nice_nano_v2
-    shield: corne_left
-  - board: nice_nano_v2
-    shield: corne_right
-  - board: nice_nano_v2
-    shield: settings_reset
+# 取消注释可以开启nice!nano主控固件默认情况下为关闭模式
+#  - board: nice_nano_v2
+#    shield: corne_left
+#  - board: nice_nano_v2
+#  - board: nice_nano_v2
+#    shield: corne_right
+#  - board: nice_nano_v2
+#    shield: settings_reset
