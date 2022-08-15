@@ -75,6 +75,12 @@
             layers = <0 2>;
             timeout-ms = <50>;
         };
+
+        mail {
+            bindings = <&MAIL>;
+            key-positions = <19 20 21>;
+            timeout-ms = <50>;
+        };
     };
 
     macros {
@@ -97,6 +103,12 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings = <&kp LSHIFT &kp LBKT &kp RBKT &kp LEFT &kp LSHIFT>;
+        };
+        MAIL: MAIL {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp AT_SIGN &kp M &kp O &kp Z &kp I &kp X &kp U &kp N &kp PERIOD &kp C &kp O &kp M>;
         };
     };
 
@@ -137,9 +149,9 @@
             label = "SETTING";
             bindings = <
  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &rgb_ug RGB_ON  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
- &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &rgb_ug RGB_OFF  &reset            &bt BT_NXT  &out OUT_USB  &out OUT_BLE  &out OUT_TOG    &bt BT_PRV      &reset
-           &to 1            &to 2            &to 4            &to 5   &to 6            &to 7                &trans        &trans        &trans        &trans        &trans      &trans
-                                                             &trans  &trans            &to 0                &tog 3        &trans        &trans
+ &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &rgb_ug RGB_OFF           &reset            &bt BT_NXT  &out OUT_USB  &out OUT_BLE  &out OUT_TOG    &bt BT_PRV      &reset
+           &to 1            &to 2            &to 4            &to 5            &to 6            &to 7                &trans        &trans        &trans        &trans        &trans      &trans
+                                                             &trans           &trans            &to 0                &tog 3        &trans        &trans
             >;
         };
 
