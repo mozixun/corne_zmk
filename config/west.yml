@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: 4cio
+      url-base: https://github.com/4cio
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: 4cio
       revision: main
       import: app/west.yml
   self:
