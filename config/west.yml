@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: 4cio
-      url-base: https://github.com/4cio
+    - name: nickconway
+      url-base: https://github.com/nickconway
   projects:
     - name: zmk
-      remote: 4cio
+      remote: nickconway
       revision: main
       import: app/west.yml
   self:
