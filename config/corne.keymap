@@ -144,6 +144,12 @@
             #binding-cells = <0>;
             bindings = <&kp M &kp O &kp Z &kp I &kp X &kp U &kp N>;
         };
+        password1: password1 {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp L &kp O &kp V &kp E &kp M &kp O &kp E>;
+        };
     };
 
     keymap {
@@ -226,6 +232,15 @@
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans   &to 0          &trans  &trans  &trans
+            >;
+        };
+
+        macros {
+            bindings = <
+ &trans  &trans  &trans  &trans      &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &password1  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans      &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans      &trans  &trans          &trans  &trans  &trans
             >;
         };
     };
