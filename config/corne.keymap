@@ -12,6 +12,7 @@
 #define MEDIA    5
 #define LOCK     6
 #define GAME     7
+#define MACROS   8
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -235,7 +236,8 @@
             >;
         };
 
-        macros {
+        MACROS {
+            label = "MACROS";
             bindings = <
  &trans  &trans  &trans  &trans      &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &password1  &trans          &trans  &trans  &trans  &trans  &trans  &trans
