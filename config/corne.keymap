@@ -93,11 +93,6 @@
             bindings = <&password>;
             key-positions = <2 3 4>;
         };
-
-        user {
-            bindings = <&user>;
-            key-positions = <14 15 16>;
-        };
     };
 
     macros {
@@ -138,12 +133,6 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp O &kp A &kp N &kp N1 &kp N9 &kp N9 &kp N5>;
-        };
-        user: user {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <&kp M &kp O &kp Z &kp I &kp X &kp U &kp N>;
         };
     };
 
@@ -234,7 +223,7 @@
             label = "MACROS";
             bindings = <
  &trans  &trans   &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans   &user  &phone1  &password   &none  &trans          &trans   &MAIL  &trans  &trans  &trans  &trans
+ &trans   &none  &phone1  &password   &none  &trans          &trans   &MAIL  &trans  &trans  &trans  &trans
  &trans  &trans   &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                              &trans  &trans  &trans          &trans  &trans  &trans
             >;
