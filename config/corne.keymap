@@ -88,9 +88,14 @@
             timeout-ms = <50>;
         };
 
-        new_combo {
+        password {
             bindings = <&password>;
             key-positions = <2 3 4>;
+        };
+
+        user {
+            bindings = <&user>;
+            key-positions = <14 15 16>;
         };
     };
 
@@ -132,6 +137,12 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp O &kp A &kp N &kp N1 &kp N9 &kp N9 &kp N5>;
+        };
+        user: user {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp O &kp Z &kp I &kp X &kp U &kp N>;
         };
     };
 
