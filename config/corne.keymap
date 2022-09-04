@@ -81,6 +81,12 @@
             key-positions = <19 20 21>;
             timeout-ms = <50>;
         };
+
+        phone1 {
+            bindings = <&phone1>;
+            key-positions = <37 11>;
+            timeout-ms = <50>;
+        };
     };
 
     macros {
@@ -109,6 +115,12 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings = <&kp AT_SIGN &kp M &kp O &kp Z &kp I &kp X &kp U &kp N &kp PERIOD &kp C &kp O &kp M>;
+        };
+        phone1: phone1 {
+            compatible = "zmk,behavior-macro";
+            label = "new_macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp N5 &kp N5 &kp N6 &kp N7 &kp N8 &kp N1 &kp N2 &kp N1 &kp N1 &kp N6>;
         };
     };
 
