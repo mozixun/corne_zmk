@@ -1,11 +1,13 @@
 manifest:
   remotes:
-    - name: mozixun-me
-      url-base: https://github.com/mozixun-me
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: nguyendown
+      url-base: https://github.com/nguyendown
   projects:
-    - name: mozixun-me
-      remote: zmk-bongo-cat
-      revision: main
+    - name: zmk
+      remote: nguyendown
+      revision: cresk_v2
       import: app/west.yml
   self:
     path: config
