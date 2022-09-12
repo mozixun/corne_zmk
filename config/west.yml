@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: nguyendown
-      revision: cresk_v2
+      revision: bongo-cat
       import: app/west.yml
   self:
     path: config
