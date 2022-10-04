@@ -2,15 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nvhung9
-      url-base: https://github.com/nvhung9
-    - name: nguyendown
-      url-base: https://github.com/nguyendown
-    - name: mozixun-me
-      url-base: https://github.com/mozixun-me
+    - name: Chatblanc77
+      url-base: https://github.com/Chatblanc77
   projects:
-    - name: soflezmk
-      remote: mozixun-me
+    - name: zmk
+      remote: Chatblanc77
       revision: sofle-bongo-cat
       import: app/west.yml
   self:
