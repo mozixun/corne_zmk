@@ -200,10 +200,10 @@
         GAME {
             label = "GAME";
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans  &trans          &trans  &trans  &trans
+ &trans  &trans   &kp Q      &kp W    &kp E     &trans             &trans      &trans        &trans  &trans  &trans  &trans
+ &trans  &trans   &kp A      &kp S    &kp D     &trans          &kp TILDE      &kp N1        &kp N2  &kp N3  &kp N4  &kp N5
+ &trans  &trans  &trans     &trans   &trans     &trans             &trans      &trans        &trans  &trans  &trans  &trans
+                         &kp LCTRL  &kp TAB  &kp ENTER          &kp SPACE  &kp RSHIFT  &kp LEFT_ALT
             >;
         };
 
