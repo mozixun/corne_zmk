@@ -210,10 +210,10 @@
         MACROS {
             label = "MACROS";
             bindings = <
- &trans  &trans   &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans   &none  &phone1  &password   &none  &trans          &trans   &MAIL  &trans  &trans  &trans  &trans
- &trans  &trans   &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans  &trans  &trans          &trans  &trans  &trans
+ &trans  &trans  &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+ &trans   &none  &trans  &password   &none  &trans          &trans   &MAIL  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans          &trans  &trans  &trans
             >;
         };
     };
