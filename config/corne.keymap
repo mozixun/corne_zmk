@@ -83,12 +83,6 @@
             timeout-ms = <50>;
         };
 
-        phone1 {
-            bindings = <&phone1>;
-            key-positions = <37 11>;
-            timeout-ms = <50>;
-        };
-
         password {
             bindings = <&password>;
             key-positions = <2 3 4>;
