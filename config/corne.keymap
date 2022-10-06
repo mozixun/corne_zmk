@@ -87,12 +87,6 @@
             timeout-ms = <50>;
         };
 
-        lock {
-            bindings = <&to 6>;
-            key-positions = <0 11>;
-            layers = <0 1 2 3 7 5 4 8>;
-        };
-
         lockopen {
             bindings = <&to 0>;
             key-positions = <0 12 24 11 23 35>;
