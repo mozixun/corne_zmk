@@ -152,10 +152,10 @@
         SYMBOT {
             label = "SYMBOT";
             bindings = <
- &kp EXCL     &kp DOT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET            &kp SQT  &kp LPAR    &kp UP   &kp RPAR     &none  &kp BSPC
- &kp AMPS    &kp STAR  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER            &kp DQT  &kp LEFT    &kp N1  &kp RIGHT  &kp LBRC  &kp RBRC
- &kp FSLH  &kp TILDE2   &kp BSLH  &kp PIPE   &kp SEMI  &kp COLON             &kp LT    &kp GT  &kp DOWN      &none  &kp LBKT  &kp RBKT
-                                    &trans      &none      &to 0          &kp ENTER     &mo 3     &mo 2
+ &kp EXCL     &kp DOT   &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET             &kp SQT  &kp LPAR    &kp UP   &kp RPAR     &none  &kp BSPC
+ &kp AMPS    &kp STAR  &kp EQUAL  &kp PLUS  &kp MINUS  &kp UNDER             &kp DQT  &kp LEFT    &kp N1  &kp RIGHT  &kp LBRC  &kp RBRC
+ &kp FSLH  &kp TILDE2   &kp BSLH  &kp PIPE   &kp SEMI  &kp COLON              &kp LT    &kp GT  &kp DOWN      &none  &kp LBKT  &kp RBKT
+                                    &trans      &none      &to 0          &caps_word     &mo 3     &mo 2
             >;
         };
 
