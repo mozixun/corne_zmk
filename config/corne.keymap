@@ -93,6 +93,18 @@
             timeout-ms = <50>;
             layers = <6 0 1 2 3 7 5 4 8>;
         };
+
+        k1 {
+            bindings = <&kp LPAR>;
+            key-positions = <4 5>;
+            timeout-ms = <50>;
+        };
+
+        k2 {
+            bindings = <&kp RPAR>;
+            key-positions = <6 7>;
+            timeout-ms = <50>;
+        };
     };
 
     macros {
