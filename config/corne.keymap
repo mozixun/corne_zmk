@@ -54,21 +54,21 @@
 
         up {
             bindings = <&kp UP>;
-            key-positions = <7 8>;
+            key-positions = <8 20>;
             layers = <0 2 1 3 7 5 4 8>;
             timeout-ms = <50>;
         };
 
         down {
             bindings = <&kp DOWN>;
-            key-positions = <31 32>;
+            key-positions = <32 20>;
             layers = <0 1 2 3 7 5 4 8>;
             timeout-ms = <50>;
         };
 
         left {
             bindings = <&kp LEFT>;
-            key-positions = <18 19>;
+            key-positions = <20 19>;
             layers = <0 2 1 3 7 5 4 8>;
             timeout-ms = <50>;
         };
@@ -103,6 +103,30 @@
         k2 {
             bindings = <&kp RPAR>;
             key-positions = <6 7>;
+            timeout-ms = <50>;
+        };
+
+        k3 {
+            bindings = <&kp LBKT>;
+            key-positions = <16 17>;
+            timeout-ms = <50>;
+        };
+
+        k4 {
+            bindings = <&kp RBKT>;
+            key-positions = <18 19>;
+            timeout-ms = <50>;
+        };
+
+        k5 {
+            bindings = <&kp LBRC>;
+            key-positions = <28 29>;
+            timeout-ms = <50>;
+        };
+
+        k6 {
+            bindings = <&kp RBRC>;
+            key-positions = <30 31>;
             timeout-ms = <50>;
         };
     };
