@@ -82,7 +82,7 @@
 
         mail {
             bindings = <&MAIL>;
-            key-positions = <7 20>;
+            key-positions = <19 8>;
             layers = <0>;
             timeout-ms = <50>;
         };
@@ -128,6 +128,11 @@
             bindings = <&kp RBRC>;
             key-positions = <30 31>;
             timeout-ms = <50>;
+        };
+
+        password {
+            bindings = <&pasword>;
+            key-positions = <16 3>;
         };
     };
 
