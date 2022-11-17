@@ -82,7 +82,7 @@
 
         mail {
             bindings = <&MAIL>;
-            key-positions = <19 20 21>;
+            key-positions = <7 20>;
             layers = <0>;
             timeout-ms = <50>;
         };
