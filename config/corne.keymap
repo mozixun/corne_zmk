@@ -252,7 +252,7 @@
             label = "MACROS";
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans   &none  &trans  &trans   &none  &trans          &trans   &MAIL  &trans  &trans  &trans  &trans
+ &trans   &none  &trans  &trans   &none  &trans          &trans   &none  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
                          &trans  &trans  &trans          &trans  &trans  &trans
             >;
