@@ -81,7 +81,7 @@
         };
 
         mail {
-            bindings = <&MAIL>;
+            bindings = <&mail>;
             key-positions = <19 8>;
             layers = <0 1 3 2 5 4 8>;
             timeout-ms = <50>;
