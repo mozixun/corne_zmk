@@ -2,11 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nvhung9
-      url-base: https://github.com/nvhung9
+    - name: mozixun-me
+      url-base: https://github.com/mozixun-me
   projects:
-    - name: zmk
-      remote: nvhung9
+    - name: mozixun
+      remote: mozixun-me
       revision: main
       import: app/west.yml
   self:
